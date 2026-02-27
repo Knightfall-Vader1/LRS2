@@ -22,7 +22,7 @@ class Settings:
         "AUTHORIZED_PLATES_PATH", Path("authorized_plates.json"), Path
     )
     input_size: int = _env("INPUT_SIZE", 640, int)
-    confidence_threshold: float = _env("CONFIDENCE_THRESHOLD", 0.0127, float) #0.0127 is the best yet
+    confidence_threshold: float = _env("CONFIDENCE_THRESHOLD", 0.3, float) #0.0127 is the best yet
 
 
 settings = Settings()

@@ -6,3 +6,5 @@ models/
 runs/
 *.cache
 yolov8n.pt
+dataset
+car-plate-detection
