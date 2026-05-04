@@ -73,6 +73,3 @@ Authorized plates live in `authorized_plates.json` in this format:
 }
 ```
 
-## Dataset Request (Email Description)
-**Short technical description:**
-> We are building a German license plate recognition system using YOLOv8 for plate detection and a Transformer-based OCR (TrOCR) for plate text recognition. The dataset will be used to train and evaluate detection bounding boxes and OCR text labels under real-world conditions.
